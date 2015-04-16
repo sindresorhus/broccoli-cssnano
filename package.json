@@ -1,0 +1,44 @@
+{
+  "name": "broccoli-cssnano",
+  "version": "0.0.0",
+  "description": "Minify CSS",
+  "license": "MIT",
+  "repository": "sindresorhus/broccoli-cssnano",
+  "author": {
+    "name": "Sindre Sorhus",
+    "email": "sindresorhus@gmail.com",
+    "url": "sindresorhus.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "broccoli-plugin",
+    "css",
+    "style",
+    "stylesheet",
+    "minify",
+    "compress",
+    "cssnano",
+    "nano",
+    "optimize",
+    "optimise",
+    "optimization",
+    "optimisation",
+    "postcss"
+  ],
+  "dependencies": {
+    "broccoli-filter": "^0.1.12",
+    "cssnano": "^1.0.1"
+  },
+  "devDependencies": {
+    "broccoli": "^0.15.3",
+    "mocha": "*"
+  }
+}
