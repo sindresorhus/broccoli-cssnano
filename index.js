@@ -18,7 +18,7 @@ CssnanoFilter.prototype.extensions = ['css'];
 CssnanoFilter.prototype.targetExtension = 'css';
 
 CssnanoFilter.prototype.processString = function (str) {
-	return cssnano(str, this.options);
+	return cssnano.process(str, this.options);
 };
 
 module.exports = CssnanoFilter;
