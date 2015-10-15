@@ -7,6 +7,8 @@ function CssnanoFilter(inputTree, options) {
 		return new CssnanoFilter(inputTree, options);
 	}
 
+	Filter.call(this, inputTree);
+
 	this.inputTree = inputTree;
 	this.options = options || {};
 }

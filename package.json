@@ -34,11 +34,11 @@
     "postcss"
   ],
   "dependencies": {
-    "broccoli-filter": "^0.1.12",
+    "broccoli-filter": "^1.2.2",
     "cssnano": "^3.0.0"
   },
   "devDependencies": {
-    "broccoli": "^0.15.3",
+    "broccoli": "^0.16.8",
     "mocha": "*"
   }
 }
