@@ -1,4 +1,4 @@
-# [broccoli](https://github.com/joliss/broccoli)-cssnano [![Build Status](https://travis-ci.org/sindresorhus/broccoli-cssnano.svg?branch=master)](https://travis-ci.org/sindresorhus/broccoli-cssnano)
+# [broccoli](https://github.com/joliss/broccoli)-cssnano
 
 > Minify CSS using [`cssnano`](https://github.com/ben-eb/cssnano)
 
