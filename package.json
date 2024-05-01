@@ -1,44 +1,46 @@
 {
-  "name": "broccoli-cssnano",
-  "version": "2.1.0",
-  "description": "Minify CSS",
-  "license": "MIT",
-  "repository": "sindresorhus/broccoli-cssnano",
-  "author": {
-    "name": "Sindre Sorhus",
-    "email": "sindresorhus@gmail.com",
-    "url": "sindresorhus.com"
-  },
-  "engines": {
-    "node": ">=0.12.0"
-  },
-  "scripts": {
-    "test": "mocha"
-  },
-  "files": [
-    "index.js"
-  ],
-  "keywords": [
-    "broccoli-plugin",
-    "css",
-    "style",
-    "stylesheet",
-    "minify",
-    "compress",
-    "cssnano",
-    "nano",
-    "optimize",
-    "optimise",
-    "optimization",
-    "optimisation",
-    "postcss"
-  ],
-  "dependencies": {
-    "broccoli-filter": "^1.2.2",
-    "cssnano": "^3.0.0"
-  },
-  "devDependencies": {
-    "broccoli": "^0.16.8",
-    "mocha": "*"
-  }
+	"name": "broccoli-cssnano",
+	"version": "2.1.0",
+	"description": "Minify CSS",
+	"license": "MIT",
+	"repository": "sindresorhus/broccoli-cssnano",
+	"funding": "https://github.com/sponsors/sindresorhus",
+	"author": {
+		"name": "Sindre Sorhus",
+		"email": "sindresorhus@gmail.com",
+		"url": "https://sindresorhus.com"
+	},
+	"sideEffects": false,
+	"engines": {
+		"node": ">=0.12.0"
+	},
+	"scripts": {
+		"test": "mocha"
+	},
+	"files": [
+		"index.js"
+	],
+	"keywords": [
+		"broccoli-plugin",
+		"css",
+		"style",
+		"stylesheet",
+		"minify",
+		"compress",
+		"cssnano",
+		"nano",
+		"optimize",
+		"optimise",
+		"optimization",
+		"optimisation",
+		"postcss"
+	],
+	"dependencies": {
+		"broccoli-filter": "^1.2.2",
+		"cssnano": "^3.0.0"
+	},
+	"devDependencies": {
+		"broccoli": "^0.16.8",
+		"mocha": "*"
+	}
 }

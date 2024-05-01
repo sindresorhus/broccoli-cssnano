@@ -7,8 +7,8 @@
 
 ## Install
 
-```
-$ npm install --save-dev broccoli-cssnano
+```sh
+npm install --save-dev broccoli-cssnano
 ```
 
 
